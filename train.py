@@ -15,7 +15,8 @@ if not os.path.exists('./models/' + current_time):
 	os.makedirs('./models/' + current_time)
 
 # initialise the environment
-env = gym.make("HalfCheetahBulletEnv-v0")
+env = gym.make("AntBulletEnv-v0")
+# env = wrappers.Monitor(env, save_dir, force = True) 
 env.seed(0)
 action_dim = env.action_space.shape[0]
 state_dim = env.observation_space.shape[0]
