@@ -178,7 +178,7 @@ class TD3(object):
 		self.expl_noise = expl_noise
 		self.actor_train_interval = actor_train_interval
 		self.summaries = summaries
-		if current_time is not None:
+		if current_time is None:
 			self.current_time = dt.datetime.now().strftime("%Y%m%d-%H%M%S")
 		else:
 			self.current_time = current_time
