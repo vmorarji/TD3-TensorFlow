@@ -18,7 +18,7 @@ The below line in `main.py` has been commented out. To enable recordings of cert
 ```python
 env = wrappers.Monitor(env, save_dir, force = True)
 ```
-Note that one Windows machines ffmpeg will need to be saved in the same local directory as `main.py`.
+Note that one Windows machines ffmpeg will need to be saved in the same local directory as `train.py`.
 
 
 
