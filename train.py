@@ -1,8 +1,8 @@
 import gym
 import pybullet_envs
 import os
-from Model import TD3
-from ReplayBuffer import ReplayBuffer
+from model import TD3
+from replaybuffer import ReplayBuffer
 import datetime as dt
 import tensorflow as tf
 
